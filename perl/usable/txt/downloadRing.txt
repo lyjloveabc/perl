@@ -1,0 +1,15 @@
+﻿#!perl By LYJ
+#火狐浏览器下载铃音
+use 5.010;
+use warnings;
+
+say "START-P";
+<STDIN>;
+chdir "C:\\Program Files (x86)\\Mozilla Firefox\\";
+#`cd "C:\\Program Files (x86)\\Mozilla Firefox\\"`;
+@ARGV=qw(urls.txt);
+while(<>){
+	`firefox.exe -url $_`;
+}
+say "END-P";
+<STDIN>

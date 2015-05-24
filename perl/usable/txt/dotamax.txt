@@ -1,0 +1,31 @@
+#!perl By LYJ
+#description
+use 5.010;
+use warnings;
+use LWP;
+
+say "START-P";
+$search=<STDIN>;
+my $ua = LWP::UserAgent->new;
+$ua->agent("MyApp/0.1 ");
+# Create a request
+my $req = HTTP::Request->new(GET => 'http://dotamax.com/home/');
+$req->content_type('application/x-www-form-urlencoded');
+$req->content('q='.$search);
+ 
+# Pass request to the user agent and get a response back
+my $res = $ua->request($req);
+
+# Check the outcome of the response
+if ($res->is_success) {
+	open OUTPUT,">","data/dotamax.txt";
+	print OUTPUT $res->content;
+	close OUTPUT;
+    #print $res->content;
+}
+else {
+    print $res->status_line, "\n";
+}
+
+say "END-P";
+<STDIN>;

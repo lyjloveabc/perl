@@ -1,0 +1,30 @@
+#!perl By LYJ
+#description
+use 5.010;
+use warnings;
+use LWP;
+
+
+say "START-P";
+<STDIN>;
+my $ua=LWP::UserAgent->new;
+$ua->agent("MyApp/0.1");
+
+my $req=HTTP::Request->new(GET =>'http://www.baidu.com');
+$req->content_type('application/x-www-form-urlencoded');
+$req->content('');
+
+my $res=$ua->request($req);
+
+if($res->is_success){
+	open TOFILE ,'>','output.txt';
+	print TOFILE $res->content;
+	close TOFILE;
+	say $res->content;
+}
+else{
+	say $res->status_line.'\n';
+}
+
+say "END-P";
+<STDIN>;

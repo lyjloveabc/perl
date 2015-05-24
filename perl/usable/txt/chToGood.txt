@@ -1,0 +1,16 @@
+﻿#!lyj-perl
+#中文乱码解决-读取文件本身就是utf8
+use 5.010;#使用say
+use warnings;#打印警告
+use Encode;#编码
+
+say "start Program";
+@ARGV=qw(DiyMatchAction.java);
+while(<>){
+Encode::_utf8_on($_);
+$str = Encode::encode('utf8', $_);#以什么编码格式编码字符串
+say "$str \n";
+	
+}
+say "end Program";
+<STDIN>

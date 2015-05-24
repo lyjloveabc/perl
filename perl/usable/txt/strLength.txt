@@ -1,0 +1,10 @@
+#!perl By LYJ
+#¼ÆËã×Ö·û´®³¤¶È
+use 5.010;
+use warnings;
+
+say "START-P";
+$str="http://61.132.134.128/colorring/wav/sys/";
+say length($str);
+say "END-P";
+<STDIN>

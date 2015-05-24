@@ -1,0 +1,31 @@
+#!perl By LYJ
+#study LWP
+use 5.010;
+use warnings;
+use LWP;
+
+say "START-P";
+<STDIN>;
+my $ua = LWP::UserAgent->new;
+$ua->agent("MyApp/0.1 ");
+
+# Create a request
+my $req = HTTP::Request->new(POST => 'http://61.132.134.128/colorring/wav/sys/1481703.wav');
+$req->content_type('application/x-www-form-urlencoded');
+$req->content('');
+ 
+# Pass request to the user agent and get a response back
+my $res = $ua->request($req);
+
+# Check the outcome of the response
+if ($res->is_success) {
+	open OUTPUT,">","data/output.wav";
+	print OUTPUT $res->content;
+	close OUTPUT;
+    #print $res->content;
+}
+else {
+    print $res->status_line, "\n";
+}
+say "END-P";
+<STDIN>;

@@ -5,7 +5,7 @@ use strict;
 use LWP;
 
 #--取得URL
-my $url = "http://cring.118320.com:8080/zjwap/rings/indexS.action";
+my $url = "http://dotamax.com/zjwap/rings/indexS.action";
 
 #--建立LWP ::UserAgent 与HTTP ::Request 物件，
 #--其中Request对象将$url传进去

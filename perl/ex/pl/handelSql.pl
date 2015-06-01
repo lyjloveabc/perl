@@ -3,10 +3,10 @@
 use 5.010;
 use warnings;
 
-@ARGV=qw(sql.txt);
+$i=1;
+@ARGV=qw(sql2.txt);
 while(<>){
-	s/DIYMATCH_COLORRING/CLHLG_RING/;
-	s/COLORRING_ID/RING_ID/;
-	s/COLORRING_//g;
-	say $_;
+	chomp $_;
+	say "update CLHLG_RING set url = '".$_."' where id =".$i.";";
+	$i++;
 }

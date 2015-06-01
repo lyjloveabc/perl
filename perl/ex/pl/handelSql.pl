@@ -1,5 +1,5 @@
 #!perl by LYJ
-#new a pl file with some rule
+#
 use 5.010;
 use warnings;
 

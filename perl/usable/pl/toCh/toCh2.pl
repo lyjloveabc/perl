@@ -10,4 +10,3 @@ while (<>) {
 	$str = Encode::encode('utf8', $enStr);
 	say $str;
 }
-<STDIN>

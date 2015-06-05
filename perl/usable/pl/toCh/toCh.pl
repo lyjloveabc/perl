@@ -12,4 +12,3 @@ while (<>) {
 	chomp;
 	say "$_";
 }
-<STDIN>

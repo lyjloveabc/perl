@@ -2,9 +2,7 @@
 #
 use 5.010;
 use warnings;
-use Tkx;
 use utf8;
-use DBD::SQLite;
 use DBI qw(:sql_types);
 
 my $driver   = "SQLite";
@@ -14,16 +12,14 @@ my $userid   = "";
 my $password = "";
 my $dbh      = DBI->connect( $dsn, $userid, $password )
   or die $DBI::errstr;
-my $sql = "create table ring(id varchar(50) null, url varchar(255) null)";
-$dbh->do($sql);
+#my $sql = "create table ring(id varchar(50) null, url varchar(255) null)";
+#$dbh->do($sql);
 
 @ARGV = qw(temp.txt);
 while (<>) {
 	chomp $_;
-	@res=split(" ");
-	my $sth = $dbh->prepare("INSERT INTO ring VALUES (?,?)");
-	$sth->bind_param( 1, $res[0]);
-	$sth->bind_param( 2, $res[1]);
+	my $sth = $dbh->prepare("select url from ring where id = ?");
+	$sth->bind_param( 1, '11');
 	$sth->execute();
 }
 

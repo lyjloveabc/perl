@@ -1,30 +1,20 @@
-﻿810033540396	小苹果  	筷子兄弟  	200	http://61.132.134.128/colorring/wav/sys/1481703.wav
-810027620306	漂洋过海来看你  	刘明湘  	200	http://61.132.134.128/colorring/wav/sys/1531051.wav
-810023330134	喜欢你  	G.E.M.邓紫棋  	200	http://61.132.134.128/colorring/wav/sys/1533453.wav
-810027215545	老公赚钱老婆花  	大庆小芳  	200	http://61.132.134.128/colorring/wav/sys/1649587.wav
-810030670646	平凡之路  	朴树  	200	http://61.132.134.128/colorring/wav/sys/1501689.wav
-810026263239	匆匆那年 (电影匆匆那年主题曲)  	王菲  	200	http://61.132.134.128/colorring/wav/sys/1577841.wav
-810032404346	剑心(古剑奇谭片头曲)  	张杰  	200	http://61.132.134.128/colorring/wav/sys/1492353.wav
-810037700389	有事和我说吧	Moring	200	http://61.132.134.128/colorring/wav/sys/937103.wav
-810039856902	See You Again	Feat.Charlie Puth	200	http://61.132.134.128/colorring/wav/sys/1722598.wav
-810039857145	你好可爱	吴克群+宋智孝	200	http://61.132.134.128/colorring/wav/sys/1724691.wav
-810023330203	斑马.斑马	姜兴琦	200	http://61.132.134.128/colorring/wav/sys/1682518.wav
-810031302861	感觉自己萌萌哒	贾玲+刘维	200	http://61.132.134.128/colorring/wav/sys/1724012.wav
-810027390002	爱囚	庄心妍	200	http://61.132.134.128/colorring/wav/sys/1288140.wav
-810039809604	唯一	王力宏	200	http://61.132.134.128/colorring/wav/sys/1216834.wav
-810039811018	心跳	王力宏	200	http://61.132.134.128/colorring/wav/sys/1224214.wav
-810031390006	荷塘月色	凤凰传奇	200	http://61.132.134.128/colorring/wav/sys/527932.wav
-810031390003	最炫民族风	凤凰传奇	200	http://61.132.134.128/colorring/wav/sys/527929.wav
-810026630052	泡沫  	邓紫棋  	200	http://61.132.134.128/colorring/wav/sys/1136843.wav
-810023600657	等你等了那么久  	祁隆+乐凡  	200	http://61.132.134.128/colorring/wav/sys/1492033.wav
-810035605844	愿得一人心  	李行亮+雨宗林  	200	http://61.132.134.128/colorring/wav/sys/1572233.wav
-810027620357	贝加尔湖畔  	李维+周深  	200	http://61.132.134.128/colorring/wav/sys/1544511.wav
-810023600656	等你等了那么久  	祁隆  	200	http://61.132.134.128/colorring/wav/sys/1492032.wav
-810030723301	喜欢你(我是歌手第二季)  	邓紫棋  	200	http://61.132.134.128/colorring/wav/sys/1571590.wav
-810027620278	月半小夜曲(粤语)	陈乐基 	200	http://61.132.134.128/colorring/wav/sys/1526693.wav
-810037200424	时间煮雨?	郁可唯?	200	http://61.132.134.128/colorring/wav/sys/1172679.wav
-810023330141	龙卷风?	G.E.M.邓紫棋?	200	http://61.132.134.128/colorring/wav/sys/1560046.wav
-810033540398	父亲?	筷子兄弟?	200	http://61.132.134.128/colorring/wav/sys/1483842.wav
-810034500862	爸爸去哪儿第二季?	群星?	200	http://61.132.134.128/colorring/wav/sys/1485613.wav
-810026290136	一万个舍不得?	庄心妍?	200	http://61.132.134.128/colorring/wav/sys/1144099.wav
-810034500941	给我一个理由忘记(我是歌手第三季)?	A-Lin?	200	http://61.132.134.128/colorring/wav/sys/1687896.wav
+﻿810023330134 http://61.132.134.128/colorring/wav/sys/1533453.wav 
+810023560248 http://61.132.134.128/colorring/wav/sys/1735653.wav 
+810025811028 http://61.132.134.128/colorring/wav/sys/1466507.wav 
+810026263239 http://61.132.134.128/colorring/wav/sys/1577841.wav 
+810026630052 http://61.132.134.128/colorring/wav/sys/1136843.wav 
+810027810026 http://61.132.134.128/colorring/wav/sys/1495314.wav 
+810027860167 http://61.132.134.128/colorring/wav/sys/1688579.wav 
+810028400008 http://61.132.134.128/colorring/wav/sys/1707405.wav 
+810028431662 http://61.132.134.128/colorring/wav/sys/1722668.wav 
+810028432055 http://61.132.134.128/colorring/wav/sys/1733559.wav 
+810030670646 http://61.132.134.128/colorring/wav/sys/1501689.wav 
+810033540396 http://61.132.134.128/colorring/wav/sys/1481703.wav 
+810034570037 http://61.132.134.128/colorring/wav/sys/400208.wav 
+810034570233 http://61.132.134.128/colorring/wav/sys/1490173.wav 
+810035605844 http://61.132.134.128/colorring/wav/sys/1572233.wav 
+810037470328 http://61.132.134.128/colorring/wav/sys/1738147.wav 
+810038290444 http://61.132.134.128/colorring/wav/sys/1568266.wav 
+810038290453 http://61.132.134.128/colorring/wav/sys/1719508.wav 
+810039802156 http://61.132.134.128/colorring/wav/sys/1211433.wav 
+810039802163 http://61.132.134.128/colorring/wav/sys/1211130.wav 

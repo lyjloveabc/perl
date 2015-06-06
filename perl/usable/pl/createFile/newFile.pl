@@ -1,4 +1,4 @@
-#!perl by LYJ
+#!perl@lyj
 #new a pl file with some rule
 use 5.010;
 use warnings;

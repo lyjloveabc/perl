@@ -1,7 +1,6 @@
-use Spreadsheet::ParseExcel;
 use Spreadsheet::WriteExcel;
 use Encode;
-my $dstFile    = "WriteExcelOutput.xls";
+my $dstFile    = "WriteExcelOutput111.xlsx";
 my $dstBook    = Spreadsheet::WriteExcel->new($dstFile);
 #my $bookFormat = &SetBookFmt($dstBook);
 my $flowSheet  = $dstBook->add_worksheet( decode( "utf8", "中奖名单Abc123" ) );

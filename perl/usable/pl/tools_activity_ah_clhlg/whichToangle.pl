@@ -7,8 +7,8 @@ my $which = 0;
 while ( $which != 100 ) {
 	$which = <STDIN>;
 	chomp $which;
-	my $firstAngle = 40 * ( $which - 1 );
-	my $lastAngle  = 40 * $which;
+	my $firstAngle = 30 * ( $which - 1 );
+	my $lastAngle  = 30 * $which;
 	my $angle      = ( $lastAngle - $firstAngle ) / 2 + $firstAngle;
 	say $angle;
 }
